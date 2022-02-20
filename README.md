@@ -165,7 +165,7 @@ INTO total\_mentors\_in\_each\_dept
 FROM mentors\_dept\_and\_salary
 
 GROUP BY dept\_name;
-![Total employees from each department for Mnetor Program]()
+![Total employees from each department for Mnetor Program](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/employees_eligible_mentorship_by_dept.PNG)
 
 1. Manager information by Department:
 
@@ -182,7 +182,7 @@ INNER JOIN employees AS c
 ON d.emp\_no=c.emp\_no
 
 WHERE d.to\_date=&#39;9999-01-01&#39;;
-![Managers from each department]
+![Managers from each department](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/manager_each_dept.PNG)
 
 1. Employee&#39;s Manager info eligible for Mentorship Program:
 
