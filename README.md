@@ -183,6 +183,7 @@ INNER JOIN employees AS c
 ON d.emp\_no=c.emp\_no
 
 WHERE d.to\_date=&#39;9999-01-01&#39;;
+
 ![Managers from each department](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/manager_each_dept.PNG)
 
 1. Employee&#39;s Manager info eligible for Mentorship Program:
