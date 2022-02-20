@@ -151,7 +151,7 @@ INNER JOIN salaries AS s
 ON me.emp\_no=s.emp\_no
 
 WHERE de.to\_date=&#39;9999-01-01&#39;;
-(https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_dept_and_salary.PNG)
+![](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_dept_and_salary.PNG)
 
 1. Total employees from each department that are eligible for mentorship program:
  ![Shape6](RackMultipart20220220-4-72k9di_html_32cc19f775af1e37.gif)
