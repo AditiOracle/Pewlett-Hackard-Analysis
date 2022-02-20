@@ -92,7 +92,7 @@ GROUP BY dept\_name
 
 **ADDITIONAL NEW QUERIES FOR MENTORSHIP PROGRAM:**
 
-1. Count of Titles of eligible employees and average salary for each title in Mentorship Program:
+1. Count of Titles of total eligible employees and average salary for each title in Mentorship Program:
 
 ![Shape4](RackMultipart20220220-4-72k9di_html_5d1ac8ae9971080f.gif)
 
@@ -114,7 +114,7 @@ GROUP BY me.title
 
 ORDER BY titles\_count;
 
-(https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_title_count_avg_salary.PNG)
+![Count by total Titles and Average Salary for each Title](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_title_count_avg_salary.PNG)
 
 1. Merge Salaries and Department tables to get the salary and department info. of the Mentorship Program Eligible Employees.
 
@@ -151,7 +151,7 @@ INNER JOIN salaries AS s
 ON me.emp\_no=s.emp\_no
 
 WHERE de.to\_date=&#39;9999-01-01&#39;;
-![](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_dept_and_salary.PNG)
+![Salary and Department info. of each employee from Mentor program](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_dept_and_salary.PNG)
 
 1. Total employees from each department that are eligible for mentorship program:
  ![Shape6](RackMultipart20220220-4-72k9di_html_32cc19f775af1e37.gif)
@@ -165,7 +165,7 @@ INTO total\_mentors\_in\_each\_dept
 FROM mentors\_dept\_and\_salary
 
 GROUP BY dept\_name;
-()
+![Total employees from each department for Mnetor Program]()
 
 1. Manager information by Department:
 
@@ -182,6 +182,7 @@ INNER JOIN employees AS c
 ON d.emp\_no=c.emp\_no
 
 WHERE d.to\_date=&#39;9999-01-01&#39;;
+![Managers from each department]
 
 1. Employee&#39;s Manager info eligible for Mentorship Program:
 
@@ -206,4 +207,4 @@ FROM mentors\_dept\_and\_salary AS m
 INNER JOIN manager\_each\_dept AS n
 
 ON m.dept\_no=n.dept\_no;
-(https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_manager_info.PNG)
+![Manager information of Eligible employees for Mentor Program](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentors_manager_info.PNG)
