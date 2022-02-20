@@ -165,6 +165,7 @@ INTO total\_mentors\_in\_each\_dept
 FROM mentors\_dept\_and\_salary
 
 GROUP BY dept\_name;
+
 ![Total employees from each department for Mnetor Program](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/employees_eligible_mentorship_by_dept.PNG)
 
 1. Manager information by Department:
