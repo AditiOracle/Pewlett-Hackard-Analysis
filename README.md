@@ -16,8 +16,10 @@ SQL
 1. There are 72458 employees that are ready to retire.
  ![Retirees by their Title](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/unique_titles_output.PNG)
 2. We have an outlier here. There are only 2 Managers that are going to retire.
-5. A big Silver Tsunami is actually coming in Senior Engineer and Senior Staff titles where 25916 and 24926 employees are retiring respectively.
-6. We have total 1549 employees that are eligible for Mentorship Program.
+ ![Total employees to retire from each Title](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/retiring_titles_output.PNG)
+3. A big Silver Tsunami is actually coming in Senior Engineer and Senior Staff titles where 25916 and 24926 employees are retiring respectively.
+4. We have total 1549 employees that are eligible for Mentorship Program.
+ ![Total Employees Eligible for Mentorship](https://github.com/AditiOracle/Pewlett-Hackard-Analysis/blob/main/Resources_image/mentorship_eligibility_output.PNG)
 
 **Summary:**
 
